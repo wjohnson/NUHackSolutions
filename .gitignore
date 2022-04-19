@@ -1,0 +1,5 @@
+envs.ps1
+.venv
+.azureml/config.json
+data/
+model/
