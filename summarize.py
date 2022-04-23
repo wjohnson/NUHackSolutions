@@ -1,3 +1,8 @@
+#pip install azure-ai-textanalytics==5.2.0b1
+#pip install azure-storage-blob==12.8.1
+#pip install azure-ai-textanalytics==5.1.0
+
+
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
 from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient
