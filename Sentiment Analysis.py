@@ -5,11 +5,11 @@ from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient
 import json
 
 #get the Azure Language Model (or Congtive Service Multimodel) key and endpoint from Azure portal
-credential = AzureKeyCredential("0eab2140fd4a42ccbcd4e415a97f32b4")
-endpoint="https://arvindcsademolanguagesrvc.cognitiveservices.azure.com/"
+credential = AzureKeyCredential("enter cog key here")
+endpoint="enter cog endpoint here"
 
 #get the blob storage connection details
-blob_connection_string = "DefaultEndpointsProtocol=https;AccountName=cogservicestorage;AccountKey=KAQeGPD6sULfzBZ4zWXbZqMPwxvcdly85swwhBIHShetmJAkVUSvhTM+EkEFI1gM5H2nMc2ybmtG54TtmULe/A==;EndpointSuffix=core.windows.net" #"blob_connection_string"
+blob_connection_string = #"blob_connection_string"
 blob_service_client = BlobServiceClient.from_connection_string(blob_connection_string)
 
 #get the input container name where the audio file is stored and where the converted text file has to be uploaded
